@@ -13,19 +13,19 @@ def is_enabled(value, default):
 #---------------------------------------------------------------
 #---------------------------------------------------------------         ,
 SESSION = environ.get('SESSION', 'Media_search')
-API_ID = int(environ.get('API_ID', '21484'))
-API_HASH = environ.get('API_HASH', 'db6286a041adf07ef4244e')
-BOT_TOKEN = environ.get('BOT_TOKEN', '7807I9ygow9sLqNQuI7hsWPm5FLNfBr9c')
+API_ID = int(environ.get('API_ID', '14689508'))
+API_HASH = environ.get('API_HASH', 79413cfe2dBcc93ddf1815ef588e80d5')
+BOT_TOKEN = environ.get('BOT_TOKEN', '7887545896:AAHa4NochUs6ZoRXNMF7Bs_C387zU1A2fv0')
 #---------------------------------------------------------------
 #---------------------------------------------------------------
-ADMINS = [int(admin) if id_pattern.search(admin) else admin for admin in environ.get('ADMINS', '5016109398').split()]
-USERNAME = environ.get('USERNAME', "https://t.me/Innocent_babe_dead") # ADMIN USERNAME
-LOG_CHANNEL = int(environ.get('LOG_CHANNEL', '-1002190681742'))
-MOVIE_GROUP_LINK = environ.get('MOVIE_GROUP_LINK', 'https://t.me/+K2kgCBgaat80YWQ9')
-CHANNELS = [int(ch) if id_pattern.search(ch) else ch for ch in environ.get('CHANNELS', '-1002190681742').split()]
+ADMINS = [int(admin) if id_pattern.search(admin) else admin for admin in environ.get('ADMINS', '7931847651').split()]
+USERNAME = environ.get('USERNAME', "https://t.me/Mr_SuryaBhaskar") # ADMIN USERNAME
+LOG_CHANNEL = int(environ.get('Netmovie', '-1002745389088'))
+MOVIE_GROUP_LINK = environ.get('Netmovie_Prime_Time', 'https://t.me/+nG1pFUlSYtgxMWY1')
+CHANNELS = [int(ch) if id_pattern.search(ch) else ch for ch in environ.get('CHANNELS', '-1002745389088').split()]
 #---------------------------------------------------------------
 #---------------------------------------------------------------
-DATABASE_URI = environ.get('DATABASE_URI', "mongodb+srv:learningbajority&appName=learningbots")
+DATABASE_URI = environ.get('DATABASE_URI', "mongodb+srv://bhaskarstudent04:bhaskarstudent04@netmovie.uro9qfr.mongodb.net/?retryWrites=true&w=majority&appName=NETMOVIE")
 DATABASE_NAME = environ.get('DATABASE_NAME', "learningbots")
 COLLECTION_NAME = environ.get('COLLECTION_NAME', 'Telegram_files')
 #---------------------------------------------------------------
