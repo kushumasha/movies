@@ -1,0 +1,14 @@
+# render.yaml
+
+services:
+  - type: web
+    name: telegram-file-finder-bot
+    env: python
+    plan: free
+    buildCommand: "pip install -r requirements.txt"
+    # এই সেই Start Command
+    startCommand: "gunicorn app:app & python3 bot.py" 
+    envVars:
+      - key: PYTHON_VERSION
+        value: 3.10.6
+      # ... অন্যান্য envVars এখানে থাকবে
